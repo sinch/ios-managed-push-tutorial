@@ -1,0 +1,2 @@
+SIN_INCOMING_CALL = "Incoming call";
+SIN_INCOMING_CALL_DISPLAY_NAME = "Incoming call from %@";

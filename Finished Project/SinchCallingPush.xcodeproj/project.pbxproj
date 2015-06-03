@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C9BBD2DB8A9A4E2DBE0EF9 /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35576164AF4667AA059FE10B /* CallViewController.m */; };
+		08FE9DDD6643506AA6292D25 /* incoming.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92DB1210D34BC8A1F4536DFF /* incoming.wav */; };
+		09ECB871124E69A41ECF261B /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992BB300A7859C9481A62E26 /* MainStoryBoard.storyboard */; };
+		1E585FD0338ABEC3605DF3C5 /* Sinch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649AB71076EC4C1F8CE24399 /* Sinch.xcassets */; };
+		22EC9D682FF9AB72ACEAC063 /* SINUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434B585624B52A1A17D16F19 /* SINUIViewController.m */; };
+		270693852DAC1821224D211A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF8C8F16312B2344BC5A10A /* LoginViewController.m */; };
+		4E21A260946E48CF8A38A32B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1634061ACE4E66A099A9B8F /* AppDelegate.m */; };
+		5136F7329DBA3B4BCDE89986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFAE02C10E21DA61530851 /* main.m */; };
+		6A2DA68CCA80430C5BFF19FC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488332493A4DC931C8821A21 /* AudioToolbox.framework */; };
+		6BFDC3EC34547FFE79C4C36A /* PaddedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1632DAEF1FC408FE3C775D /* PaddedTextField.m */; };
+		8D60176F188FE09E2B3B51C6 /* CallViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 882097CDC515C7CC625DABA8 /* CallViewController+UI.m */; };
+		8F2A4F4A67AECF4986A8F876 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115773E2E62CB931CD0F3C5B /* MainViewController.m */; };
+		9E093AD482E46EA889575E6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EC4358228138BC1D0DD1E3 /* UIKit.framework */; };
+		A21B5D5C14D24DFB5DD1AD33 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39BFB7EC99DCF30B07E7E74 /* SystemConfiguration.framework */; };
+		AD95E81B812061BDCDB5FAD4 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EC941E673D7174032288B6 /* PushKit.framework */; };
+		B09D7C971B1850FF001DE846 /* Sinch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09D7C961B1850FF001DE846 /* Sinch.framework */; };
+		B13FFA9F4FD739B3B40880B1 /* ringback.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9991305614F541FA2B071ED /* ringback.wav */; };
+		BF6274B7A59CB500A4DC3E2B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909645FF37B0DB88B5D82305 /* Security.framework */; };
+		D59F6188CC6E3BEB508510E5 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ACF9BB0E42EFBE6D4BB25AE8 /* en.lproj */; };
+		DAE20D1D1D5C96EA3B2DBB79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E9D2D27572337F9F40215F /* Images.xcassets */; };
+		DE751245D35252F8C3502B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23376F7CADC4842057C5B4 /* Foundation.framework */; };
+		E324EA3C50B0A7A2F0933C4C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBFAE82273F77D0F586A0EA /* AVFoundation.framework */; };
+		FF2504BBFF5164B9DC92898B /* MainViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA9630DEAA974E2E4D03E92 /* MainViewController+UI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		115773E2E62CB931CD0F3C5B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = SinchCallingPush/MainViewController.m; sourceTree = "<group>"; };
+		18E9D2D27572337F9F40215F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SinchCallingPush/Images.xcassets; sourceTree = "<group>"; };
+		1BA9630DEAA974E2E4D03E92 /* MainViewController+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainViewController+UI.m"; path = "SinchCallingPush/MainViewController+UI.m"; sourceTree = "<group>"; };
+		1D92B17855D2962B266E9A57 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = text; name = Prefix.pch; path = SinchCallingPush/Prefix.pch; sourceTree = "<group>"; };
+		2C4A054213733DFC34AC9467 /* SINUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SINUIViewController.h; path = SinchCallingPush/SINUIViewController.h; sourceTree = "<group>"; };
+		35576164AF4667AA059FE10B /* CallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CallViewController.m; path = SinchCallingPush/CallViewController.m; sourceTree = "<group>"; };
+		374A027BDC8FB37D5A1A7C55 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = SinchCallingPush/LoginViewController.h; sourceTree = "<group>"; };
+		434B585624B52A1A17D16F19 /* SINUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SINUIViewController.m; path = SinchCallingPush/SINUIViewController.m; sourceTree = "<group>"; };
+		488332493A4DC931C8821A21 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4ECFAE02C10E21DA61530851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SinchCallingPush/main.m; sourceTree = "<group>"; };
+		5F23376F7CADC4842057C5B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6086F9913FDE28022BE45F32 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = SinchCallingPush/MainViewController.h; sourceTree = "<group>"; };
+		649AB71076EC4C1F8CE24399 /* Sinch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Sinch.xcassets; path = SinchCallingPush/Sinch.xcassets; sourceTree = "<group>"; };
+		6BBFAE82273F77D0F586A0EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6C3B91F542CD95AE74269887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SinchCallingPush/Info.plist; sourceTree = "<group>"; };
+		6F6B08D548BC4C72430E978B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SinchCallingPush/AppDelegate.h; sourceTree = "<group>"; };
+		71D60CBE821A9CF3890BE6A8 /* CallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CallViewController.h; path = SinchCallingPush/CallViewController.h; sourceTree = "<group>"; };
+		882097CDC515C7CC625DABA8 /* CallViewController+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CallViewController+UI.m"; path = "SinchCallingPush/CallViewController+UI.m"; sourceTree = "<group>"; };
+		909645FF37B0DB88B5D82305 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		92DB1210D34BC8A1F4536DFF /* incoming.wav */ = {isa = PBXFileReference; lastKnownFileType = text; name = incoming.wav; path = SinchCallingPush/incoming.wav; sourceTree = "<group>"; };
+		92EC4358228138BC1D0DD1E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		992BB300A7859C9481A62E26 /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainStoryBoard.storyboard; path = SinchCallingPush/MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		A1EC941E673D7174032288B6 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		A54042D7DBBC81A2EEA5C0B0 /* CallViewController+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CallViewController+UI.h"; path = "SinchCallingPush/CallViewController+UI.h"; sourceTree = "<group>"; };
+		ACF9BB0E42EFBE6D4BB25AE8 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = text; name = en.lproj; path = SinchCallingPush/en.lproj; sourceTree = "<group>"; };
+		B09D7C961B1850FF001DE846 /* Sinch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sinch.framework; sourceTree = "<group>"; };
+		C39BFB7EC99DCF30B07E7E74 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CD57187E64307A86FFEF341C /* PaddedTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PaddedTextField.h; path = SinchCallingPush/PaddedTextField.h; sourceTree = "<group>"; };
+		E1634061ACE4E66A099A9B8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SinchCallingPush/AppDelegate.m; sourceTree = "<group>"; };
+		E9991305614F541FA2B071ED /* ringback.wav */ = {isa = PBXFileReference; lastKnownFileType = text; name = ringback.wav; path = SinchCallingPush/ringback.wav; sourceTree = "<group>"; };
+		EC1632DAEF1FC408FE3C775D /* PaddedTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PaddedTextField.m; path = SinchCallingPush/PaddedTextField.m; sourceTree = "<group>"; };
+		EEA160378BF1B6BFB2ED317E /* SinchCallingPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinchCallingPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF8C8F16312B2344BC5A10A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = SinchCallingPush/LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D2D79ABA98B969BEF0EE688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E324EA3C50B0A7A2F0933C4C /* AVFoundation.framework in Frameworks */,
+				6A2DA68CCA80430C5BFF19FC /* AudioToolbox.framework in Frameworks */,
+				DE751245D35252F8C3502B49 /* Foundation.framework in Frameworks */,
+				AD95E81B812061BDCDB5FAD4 /* PushKit.framework in Frameworks */,
+				BF6274B7A59CB500A4DC3E2B /* Security.framework in Frameworks */,
+				A21B5D5C14D24DFB5DD1AD33 /* SystemConfiguration.framework in Frameworks */,
+				B09D7C971B1850FF001DE846 /* Sinch.framework in Frameworks */,
+				9E093AD482E46EA889575E6F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419DAA3D9592B71D5E38DB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54042D7DBBC81A2EEA5C0B0 /* CallViewController+UI.h */,
+				882097CDC515C7CC625DABA8 /* CallViewController+UI.m */,
+				18E9D2D27572337F9F40215F /* Images.xcassets */,
+				6C3B91F542CD95AE74269887 /* Info.plist */,
+				992BB300A7859C9481A62E26 /* MainStoryBoard.storyboard */,
+				1BA9630DEAA974E2E4D03E92 /* MainViewController+UI.m */,
+				CD57187E64307A86FFEF341C /* PaddedTextField.h */,
+				EC1632DAEF1FC408FE3C775D /* PaddedTextField.m */,
+				1D92B17855D2962B266E9A57 /* Prefix.pch */,
+				2C4A054213733DFC34AC9467 /* SINUIViewController.h */,
+				434B585624B52A1A17D16F19 /* SINUIViewController.m */,
+				649AB71076EC4C1F8CE24399 /* Sinch.xcassets */,
+				ACF9BB0E42EFBE6D4BB25AE8 /* en.lproj */,
+				92DB1210D34BC8A1F4536DFF /* incoming.wav */,
+				4ECFAE02C10E21DA61530851 /* main.m */,
+				E9991305614F541FA2B071ED /* ringback.wav */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F76EE66FA00597D281BAD26 /* SinchCallingPush */ = {
+			isa = PBXGroup;
+			children = (
+				6F6B08D548BC4C72430E978B /* AppDelegate.h */,
+				E1634061ACE4E66A099A9B8F /* AppDelegate.m */,
+				71D60CBE821A9CF3890BE6A8 /* CallViewController.h */,
+				35576164AF4667AA059FE10B /* CallViewController.m */,
+				374A027BDC8FB37D5A1A7C55 /* LoginViewController.h */,
+				FEF8C8F16312B2344BC5A10A /* LoginViewController.m */,
+				6086F9913FDE28022BE45F32 /* MainViewController.h */,
+				115773E2E62CB931CD0F3C5B /* MainViewController.m */,
+				419DAA3D9592B71D5E38DB79 /* Supporting Files */,
+			);
+			name = SinchCallingPush;
+			sourceTree = "<group>";
+		};
+		6339C8DB27C69B7485E43198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA160378BF1B6BFB2ED317E /* SinchCallingPush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C9093AB4F3980158ECA0091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BBFAE82273F77D0F586A0EA /* AVFoundation.framework */,
+				488332493A4DC931C8821A21 /* AudioToolbox.framework */,
+				5F23376F7CADC4842057C5B4 /* Foundation.framework */,
+				A1EC941E673D7174032288B6 /* PushKit.framework */,
+				909645FF37B0DB88B5D82305 /* Security.framework */,
+				B09D7C961B1850FF001DE846 /* Sinch.framework */,
+				C39BFB7EC99DCF30B07E7E74 /* SystemConfiguration.framework */,
+				92EC4358228138BC1D0DD1E3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA756E0FCF92774DEDAE10BD = {
+			isa = PBXGroup;
+			children = (
+				6C9093AB4F3980158ECA0091 /* Frameworks */,
+				6339C8DB27C69B7485E43198 /* Products */,
+				4F76EE66FA00597D281BAD26 /* SinchCallingPush */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39B5DDCAE10BBAE708E4678B /* SinchCallingPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4133E3536AE1A6F9D3E8F038 /* Build configuration list for PBXNativeTarget "SinchCallingPush" */;
+			buildPhases = (
+				96FAF063B39F4725CC53BEEA /* Resources */,
+				72CE85628EFD5D0D9EF9B97E /* Sources */,
+				7D2D79ABA98B969BEF0EE688 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinchCallingPush;
+			productName = SinchCallingPush;
+			productReference = EEA160378BF1B6BFB2ED317E /* SinchCallingPush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A9D72BBC06AAAF01D9CCEEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					39B5DDCAE10BBAE708E4678B = {
+						DevelopmentTeam = NJX84S5V4T;
+					};
+				};
+			};
+			buildConfigurationList = A70F4DE95BAA28D3885C1C18 /* Build configuration list for PBXProject "SinchCallingPush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA756E0FCF92774DEDAE10BD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39B5DDCAE10BBAE708E4678B /* SinchCallingPush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FAF063B39F4725CC53BEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE20D1D1D5C96EA3B2DBB79 /* Images.xcassets in Resources */,
+				09ECB871124E69A41ECF261B /* MainStoryBoard.storyboard in Resources */,
+				1E585FD0338ABEC3605DF3C5 /* Sinch.xcassets in Resources */,
+				D59F6188CC6E3BEB508510E5 /* en.lproj in Resources */,
+				08FE9DDD6643506AA6292D25 /* incoming.wav in Resources */,
+				B13FFA9F4FD739B3B40880B1 /* ringback.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72CE85628EFD5D0D9EF9B97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E21A260946E48CF8A38A32B /* AppDelegate.m in Sources */,
+				8D60176F188FE09E2B3B51C6 /* CallViewController+UI.m in Sources */,
+				00C9BBD2DB8A9A4E2DBE0EF9 /* CallViewController.m in Sources */,
+				270693852DAC1821224D211A /* LoginViewController.m in Sources */,
+				FF2504BBFF5164B9DC92898B /* MainViewController+UI.m in Sources */,
+				8F2A4F4A67AECF4986A8F876 /* MainViewController.m in Sources */,
+				6BFDC3EC34547FFE79C4C36A /* PaddedTextField.m in Sources */,
+				22EC9D682FF9AB72ACEAC063 /* SINUIViewController.m in Sources */,
+				5136F7329DBA3B4BCDE89986 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0903FD54B9A75FA8A6C5A498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "iPhone Distribution: Zachary Brown (NJX84S5V4T)";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					..,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"NS_BLOCK_ASSERTIONS=1",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_PEDANTIC = YES;
+				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/System/Library/Frameworks",
+					.,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-Xlinker",
+					"-lc++",
+				);
+				PRODUCT_NAME = SinchCallingPush;
+				PROVISIONING_PROFILE = "2229f63e-42b3-47d3-a603-e03ef899f95d";
+				SINCH_FRAMEWORK_RELATIVE_PATH = ..;
+				WRAPPER_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B1C48AA3A769D864EB39D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Debug;
+		};
+		AAE42FAB37DE0F45B8137060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Release;
+		};
+		B09EB982069D1AD5AE1A5AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "iPhone Distribution: Zachary Brown (NJX84S5V4T)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					..,
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_DEBUG,
+					"DEBUG=1",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_PEDANTIC = YES;
+				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/System/Library/Frameworks",
+					.,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-Xlinker",
+					"-lc++",
+				);
+				PRODUCT_NAME = SinchCallingPush;
+				PROVISIONING_PROFILE = "2229f63e-42b3-47d3-a603-e03ef899f95d";
+				SINCH_FRAMEWORK_RELATIVE_PATH = ..;
+				WRAPPER_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4133E3536AE1A6F9D3E8F038 /* Build configuration list for PBXNativeTarget "SinchCallingPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09EB982069D1AD5AE1A5AC8 /* Debug */,
+				0903FD54B9A75FA8A6C5A498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		A70F4DE95BAA28D3885C1C18 /* Build configuration list for PBXProject "SinchCallingPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1C48AA3A769D864EB39D23 /* Debug */,
+				AAE42FAB37DE0F45B8137060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A9D72BBC06AAAF01D9CCEEA /* Project object */;
+}

@@ -7,7 +7,9 @@ A few weeks ago, the team at Sinch brought us a game-changing feature. Not only 
 
 Now you can provide real-time notifications for the real-time features of your app in a rather short amount of time. 
 
-Today we're going to be building the Sinch push notification app that's provided as an example when you download the Sinch SDK. You can [download the starter project](https://github.com/sinch/ios-managed-push-tutorial), which includes all the features except for managed push. If you'd like to learn about any of the other features, or simply how to get started, you can check out the other tutorials on this site or browse through a doc, which includes a comprehensive beginner's guide for iOS.
+Today we're going to be building the Sinch push notification app that's provided as an example when you download the Sinch SDK. You can [download the starter project](https://github.com/sinch/ios-managed-push-tutorial), which includes all the features except for managed push. If you'd like to learn about any of the other features, or simply how to get started, you can check out the other tutorials on this site or browse through their docs, which include a comprehensive beginner's guide for iOS.
+
+Before writing code we're going to have to setup our development environment. You will see that in the starter project we've got a PodFile which includes our Sinch SDK. Using your terminal go ahead and `pod install` in this directory. This will generate our new development environment, from here on you should begin using the xcworkspace project instead of xcodeproj. Make sure you close any open xcodeproj versions of the project and open the newly generate xcworkspace file.
 
 Now, let’s begin. Open up the starter project and navigate over to **AppDelegate.m**. If you look for the initSinchClientWithUserId method, you will see the following code:
 

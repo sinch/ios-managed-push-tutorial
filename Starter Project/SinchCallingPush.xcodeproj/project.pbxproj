@@ -253,15 +253,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "Apple Development IOS Push Services: com.zac.pushApp";
 				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					..,
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					NDEBUG,
-					"NS_BLOCK_ASSERTIONS=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
@@ -270,11 +264,7 @@
 					"$(SDKROOT)/System/Library/Frameworks",
 					.,
 				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-Xlinker",
-					"-lc++",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = SinchCallingPush;
 				PROVISIONING_PROFILE = "";
 				SINCH_FRAMEWORK_RELATIVE_PATH = ..;
@@ -312,16 +302,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "Apple Development IOS Push Services: com.zac.pushApp";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_NS_ASSERTIONS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					..,
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					_DEBUG,
-					"DEBUG=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
@@ -331,11 +315,7 @@
 					.,
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-Xlinker",
-					"-lc++",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = SinchCallingPush;
 				PROVISIONING_PROFILE = "";
 				SINCH_FRAMEWORK_RELATIVE_PATH = ..;

@@ -31,7 +31,7 @@ Now, follow the steps and make sure to save your certificate to somewhere access
 
 ![Saving Certificate](/images/2.png)
 
-We're all done with Keychain access for the moment. Now, open up a web browser and visit [Apple’s developer portal](www.developer.apple.com). Once you've logged in, find Certificates, Identifiers & Profiles; from here, you're going to need to select 'App IDs' under the section 'Identifiers'.
+We're all done with Keychain access for the moment. Now, open up a web browser and visit [Apple’s developer portal](https://www.developer.apple.com). Once you've logged in, find Certificates, Identifiers & Profiles; from here, you're going to need to select 'App IDs' under the section 'Identifiers'.
 
 Create a new app and under the 'App services' section and be sure to tick push notifications. Once this has been done, you will see that besides push notifications, we're given the "Configurable" status, which is exactly what we want.
 

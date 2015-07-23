@@ -6,10 +6,11 @@ Traditionally, one needed a third-party service or a custom app server to manage
 A few weeks ago, the team at Sinch brought us a game-changing feature. Not only does Sinch offer a full service voice, messaging, and PSTN service, but now it offers managed push built in. This means that we developers no longer have to worry about doing it ourselves. 
 
 Now you can provide real-time notifications for the real-time features of your app in a rather short amount of time. 
-
 Today we're going to be building the Sinch push notification app that's provided as an example when you download the Sinch SDK. You can [download the starter project](https://github.com/sinch/ios-managed-push-tutorial), which includes all the features except for managed push. If you'd like to learn about any of the other features, or simply how to get started, you can check out the other tutorials on this site or browse through their docs, which include a comprehensive beginner's guide for iOS.
 
 Before writing code we're going to have to setup our development environment. You will see that in the starter project we've got a PodFile which includes our Sinch SDK. Using your terminal go ahead and `pod install` in this directory. This will generate our new development environment, from here on you should begin using the xcworkspace project instead of xcodeproj. Make sure you close any open xcodeproj versions of the project and open the newly generate xcworkspace file.
+
+##Setup
 
 Now, let’s begin. Open up the starter project and navigate over to **AppDelegate.m**. If you look for the initSinchClientWithUserId method, you will see the following code:
 
@@ -24,6 +25,8 @@ Go ahead and remove that line of code, as we're now going to be implementing man
 ```objective-c
 [_client enableManagedPushNotifications];
 ```
+
+##Certificates
 
 Before we get into coding, there's some background work we need to take care of. On your Mac, find the application Keychain access and then find certificate assistant > Request a Certificate from a Certificate Authority.
 
@@ -47,6 +50,8 @@ Follow the steps and when prompted, upload the certificate we made at the start 
 
 Find your certificate under the login section, right-click, and select export. You're now prompted to save the certificate, name it whatever you like, and save it. (Make sure it is in face in the .p12 format.) You can make a password for it, however, as this is a development environment, it's up to you. Now enter your login password and you're ready to head over to the Sinch dashboard to start configuring.
 
+##Adding the Certificate to Sinch
+
 If you haven't already, make an account. Next, create a new app, select it, and, on the third tab, you should find the push settings. 
 
 ![Upload certificate](/images/sinch.png)
@@ -57,7 +62,7 @@ It's that easy! Now we can get back to the good stuff: coding.
 
 Once back in XCode, there are a few things we need to do before we can start writing code. Firstly, under build settings, you're going to want to set the provisioning profile to the one you created earlier. Next, set the bundle identifier to the one that you specified when creating your App ID.
 
-Now it's really time to code :P
+Now it's really time to code!
 
 If you'd like, check out the code already in place and give the app a try. It's fully functional. 
 
@@ -76,7 +81,7 @@ self.push = [Sinch managedPushWithAPSEnvironment:SINAPSEnvironmentAutomatic];
 
 Here you can see we're setting the APS Environment to automatic, our delegate, and then the desired push type to automatic. When automatic is available, use it!
 
-
+##Run the code
 
 If you run the code now, you'll see an issue with what we just implemented because our app delegate doesn't conform to the SINManagedPush delegate. Go ahead and make it.
 
